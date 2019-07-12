@@ -14,7 +14,7 @@
     "react": "^16.8.1"
   },
   "scripts": {
-    "prepare": "tsc && echo 'Finished building NPM package' && npm run build",
+    "prepare": "npm run build",
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "webpack --watch",
     "build": "webpack"
